@@ -1,0 +1,13 @@
+/*
+    Blue:   #3a3248
+    Grey:   #ecece1
+ */
+
+
+.anchor{
+     -fx-background-image: url('../IMAGES/Lobby/GUIBkgd.gif');
+     -fx-background-size: 100% 100%;
+  }
+.button{
+    -fx-base:#D2C1DE;
+}

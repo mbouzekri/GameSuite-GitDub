@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="anchor" stylesheets="@AnchorPaneStyleSheet.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuessingGameControllerLL">
+   <children>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="752.0" layoutY="18.0" onMouseClicked="#switchToGuessingGame" pickOnBounds="true">
+         <image>
+            <Image url="@../IMAGES/Interface/Exit.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bca7ca" height="400.0" layoutX="105.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="10.0" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="25.0" layoutX="114.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="582.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="138.0" layoutX="163.0" layoutY="213.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="188.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="138.0" layoutX="448.0" layoutY="213.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="188.0" />
+      <Label layoutX="513.0" layoutY="287.0" text="Won" underline="true">
+         <font>
+            <Font name="Hiragino Sans W6" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <Label fx:id="numGames" layoutX="231.0" layoutY="238.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font name="Hiragino Sans W6" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="winRate" layoutX="515.0" layoutY="238.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font name="Hiragino Sans W6" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="214.0" layoutY="288.0" text="Played" textOverrun="WORD_ELLIPSIS" underline="true">
+         <font>
+            <Font name="Hiragino Sans W6" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

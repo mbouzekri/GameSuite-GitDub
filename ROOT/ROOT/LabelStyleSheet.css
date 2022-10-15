@@ -1,0 +1,11 @@
+
+/*
+CSS stuff
+*/
+
+.label{
+    -fx-font-size: 40;
+    -fx-border-width: 2; 
+    -fx-border-style: solid;
+    -fx-background-color: rgb(255,255,255);
+}
