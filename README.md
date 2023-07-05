@@ -1,2 +1,2 @@
 # GitDub
-Game Suite: Checkers, Wordle, and Numbers!
+🕹️ Interactive Plateform where you can play Wordle, Checkers, and Numbers!
