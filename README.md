@@ -6,19 +6,12 @@ We included the source code as well as all the images used in the plateform in t
 Feel free to play the games or include them in your own projects, just make sure to give us credits. <br />
 
 # Instructions
-In order to run the Application on your device, download the Repository and  cd into the Root folder. <br />
+In order to run the Application on your device, download the Repository and cd into the Root folder. <br />
+You will need to have JavaFX installed in your computer in order to run the Application.
 After accesing the folder, run the following lines on code in your command line: <br />
 
-If you are using **Windows**, run the following sequence:<br />
-
-javac --module-path ../JFX-Windows/lib/ --add-modules=javafx.controls,javafx.fxml *.java<br />
-java --module-path ../JFX-Windows/lib/ --add-modules=javafx.controls,javafx.fxml Main<br />
-
-If you are using **Mac**, run the following sequence:<br />
-
-javac --module-path ../JFX-Mac/lib/ --add-modules=javafx.controls,javafx.fxml *.java<br />
-java --module-path ../JFX-Mac/lib/ --add-modules=javafx.controls,javafx.fxml Main<br />
-
+javac --module-path ../JavaFX/lib/ --add-modules=javafx.controls,javafx.fxml *.java<br />
+java --module-path ../JavaFX/lib/ --add-modules=javafx.controls,javafx.fxml Main<br />
 
 # Checkers
 
