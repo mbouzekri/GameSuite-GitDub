@@ -1,6 +1,6 @@
 # GitDub
-🕹️ Interactive Plateform where you can play Wordle, Checkers, and Numbers!
-You can find the source code for all the games as well as the images used in the plateform.
+🕹️ Interactive Plateform where you can play Wordle, Checkers, and Numbers! <br />
+You can find the source code for all the games as well as the images used in the plateform. <br />
 Feel free to play the games or include them in your own projects, just make sure to give credits. <br />
 
 # Instructions
