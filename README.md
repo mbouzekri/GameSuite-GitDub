@@ -1,19 +1,22 @@
 # GitDub
 🕹️ Interactive Plateform where you can play Wordle, Checkers, and Numbers!
+You can find the source code for all the games as well as the images used in the plateform.
+Feel free to play the games or include them in your own projects, just make sure to give credits. <br />
 
 # Instructions
 In order to run the Application on your device, download the Repository and  cd into the Root folder. <br />
 After accesing the folder, run the following lines on code in your command line: <br />
 
-If you are using Windows, run the following sequence:<br />
+If you are using **Windows**, run the following sequence:<br />
+
 javac --module-path ../JFX-Windows/lib/ --add-modules=javafx.controls,javafx.fxml *.java<br />
 java --module-path ../JFX-Windows/lib/ --add-modules=javafx.controls,javafx.fxml Main<br />
 
-If you are using Mac, run the following sequence:<br />
+If you are using **Mac**, run the following sequence:<br />
+
 javac --module-path ../JFX-Mac/lib/ --add-modules=javafx.controls,javafx.fxml *.java<br />
 java --module-path ../JFX-Mac/lib/ --add-modules=javafx.controls,javafx.fxml Main<br />
 
-Here is a screenshot of the games, 
 
 # Checkers
 
