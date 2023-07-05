@@ -1,4 +1,5 @@
 # GitDub
+
 🕹️ Interactive Plateform where you can play Wordle, Checkers, and Numbers! <br />
 
 We included the source code as well as all the images used in the plateform in this Repository. <br />
